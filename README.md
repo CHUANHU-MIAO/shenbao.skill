@@ -28,7 +28,14 @@ Agent 会：
 
 ### 方式一：项目级（推荐）
 
-把整个 `shenbao.skill` 目录放到项目的：
+在项目根目录执行：
+
+```bash
+mkdir -p .dsh/skills
+git clone https://github.com/CHUANHU-MIAO/shenbao.skill.git .dsh/skills/shenbao.skill
+```
+
+或者把整个 `shenbao.skill` 目录放到：
 
 ```text
 <项目>/.dsh/skills/shenbao.skill/
