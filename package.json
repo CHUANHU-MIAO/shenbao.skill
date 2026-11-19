@@ -1,0 +1,18 @@
+{
+  "name": "shenbao.skill",
+  "version": "1.0.0",
+  "description": "荣誉证书、企业资质与政府项目申报材料助手：生成清单、记住清单、逐项核对材料",
+  "type": "module",
+  "bin": {
+    "shenbao-init": "scripts/init-case.mjs",
+    "shenbao-status": "scripts/summarize-case.mjs"
+  },
+  "scripts": {
+    "init": "node scripts/init-case.mjs",
+    "status": "node scripts/summarize-case.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
